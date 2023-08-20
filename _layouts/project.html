@@ -1,0 +1,24 @@
+---
+layout: wrapper
+
+---
+<body class="bg-lighter ">
+<h1 class="text-center  mt-4 scroUp">{% if page.title2 %} {{page.title2}} {% else %} {{page.title}} {% endif %}</h1>
+
+<div class="mainText">
+<div class="container w-75 mb-4">
+<h3>Overview</h3>
+<p>{{page.start-season}} {% if page.end-season %} - {{page.end-season}} {% endif %}</p>
+   {{content}}
+   {% if page.unity_dir %}
+      {% include page__unity.html %}
+   {% endif %}
+</div>
+<div class="mx-auto pb-3 text-center" style="width: 200px;">
+<a href="/contact" target="_blank" class="btn btn-rounded btn-dark">
+              <i class="fas fa-home"></i> Contact Me
+           </a>
+</div>
+
+</div>
+</body>

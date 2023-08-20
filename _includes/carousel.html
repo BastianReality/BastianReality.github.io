@@ -1,0 +1,42 @@
+<div>
+<!--Carousel Wrapper-->
+<div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+<!--Indicators-->
+{% if page.carousel.size != 1 %}
+<ol class="carousel-indicators">
+  {% for i in (1..page.carousel.size) %}
+  <li data-target="#carousel-example-2" data-slide-to="{{i}}" {% if i == 1 %} class="active" {% endif %}></li>
+  {% endfor %}
+</ol>
+{% endif %}
+<!--/.Indicators-->
+<!--Slides-->
+
+<div class="carousel-inner" role="listbox">
+  {% for slides in page.carousel %}
+ <div class="carousel-item  {% if forloop.index == 1 %} active {%endif%}">
+    <div class="view">
+      <img class="d-block w-100"  src="{{page.assetLoco}}/{{ slides.image }}" alt="{{page.name}} Image. But for some reason is not showing up. Either you just broke my website, or I made a typo. I think it's the latter. Lmk when you see this ">
+      <div class="mask rgba-black-light"></div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+<!--/.Slides-->
+
+<!--Controls-->
+{% if page.carousel.size != 1 %}
+<a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  <span class="sr-only">Previous</span>
+</a>
+<a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  <span class="sr-only">Next</span>
+</a>
+{% endif %}
+<!--/.Controls-->
+
+</div>
+<!--/.Carousel Wrapper-->
+</div>

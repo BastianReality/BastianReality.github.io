@@ -1,0 +1,28 @@
+<div>
+<!--Carousel Wrapper-->
+<div id="carousel-example-2" class="carousel slide carousel-fade" data-interval="3000" data-ride="carousel">
+
+<!--Slides-->
+
+<div class="carousel-inner" role="listbox">
+  {% for slides in include.carousel %}
+ <div class="carousel-item  {% if forloop.index == 1 %} active {%endif%}">
+    <div class="view">
+      <img class="d-block w-100"  src="{{page.assetLoco}}/{{ slides.image }}" alt="{{page.name}} Image. But for some reason is not showing up. Either you just broke my website, or I made a typo. I think it's the latter. Lmk when you see this ">
+      <div class="mask rgba-black-light"></div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+<!--/.Slides-->
+
+
+</div>
+<!--/.Carousel Wrapper-->
+
+{% if include.caption %}
+    <p class="text-center">{{ include.caption }}</p>
+{% else %}
+<br>
+{% endif %}
+</div>

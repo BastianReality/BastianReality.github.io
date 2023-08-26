@@ -21,8 +21,8 @@ def replace_images(input_path, output_path):
         output_file.write(replaced_content)
 
 if __name__ == '__main__':
-    input_file_path = '/Users/atlas/Desktop/Projects/BastianReality.github.io/_posts/2023-08-19-FirstApp.markdown'
-    output_file_path = '/Users/atlas/Desktop/2023-08-19-FirstApp.markdown'
+    input_file_path = '/Users/atlas/Desktop/Projects/BastianReality.github.io/_posts/2023-08-24-Skybox.markdown'
+    output_file_path = '/Users/atlas/Desktop/Projects/BastianReality.github.io/_posts/2023-08-24-Skybox.markdown'
 
     replace_images(input_file_path, output_file_path)
     print('Images replaced successfully!')

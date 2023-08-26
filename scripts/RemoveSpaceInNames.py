@@ -14,5 +14,5 @@ def rename_images(folder_path):
             print(f"Renamed '{filename}' to '{new_filename}'")
 
 if __name__ == "__main__":
-    target_folder = "images/tutorials/0820"  # Replace with the actual folder path
+    target_folder = "images/tutorials/0825"  # Replace with the actual folder path
     rename_images(target_folder)

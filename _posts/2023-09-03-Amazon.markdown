@@ -1,0 +1,58 @@
+---
+title: Reshape Amazon with AR/VR -- The Future of Spatial Online Shopping
+date: 2021-09-03 20:40:23 -0400 
+
+categories: Reshape 2023 winter 
+tags: All
+
+start-season: "Reshape Series"
+assetLoco: /images/reshape/
+coverPic: /shopping.jpg
+carousel:
+  - image: /shopping.jpg
+---
+
+## Introduction
+  
+Welcome to the “Reshape” series. In this exploration, let's assume a world with the perfect pair of AR/VR glasses and widespread adoption. With this backdrop, I'll delve into some of the most popular apps we use daily and reimagine them as AR/VR apps in a three-dimensional space.
+
+Our focus today is Amazon. A simplistic approach might involve projecting the 2D Amazon interface onto an AR screen for users or introducing features like AR try-on. However, my ambition is to delve deeper by leveraging the intrinsic capabilities of AR/VR, and reshaping Amazon from a three-dimensional standpoint.
+
+Here are five innovative features:
+
+## Dimensional Search
+
+**Problem**: Even though Amazon has integrated image-based searches for product identification, it often struggles with size differentiation. For example, identifying whether a TV your friend owns is 55'' or 65'' can be challenging. This problem persists across various products with multiple sizes.
+
+**AR/VR Solution**: AR glasses with depth sensors and stereoscopic cameras can estimate object dimensions. Using this feature, users can find the exact size of a product they're interested in, leading Amazon to offer the most accurate product options.
+## Interactive Product Demos
+
+**Problem**: Purchasing furniture like desks on Amazon can be tedious when it comes to assembly. Shifting between the instruction manual and the actual parts can lead to errors and frustration.
+
+**AR/VR Solution**:  Using QR codes on parts or dimensional data, AR glasses could identify individual components, providing real-time, step-by-step guidance. It would highlight the next piece and animate the assembly process.
+
+Since these furniture companies are not AR/VR experts, there will be huge business opportunity for third-party firms to specialized in creating AR tutorials like these. After all, it's much cheaper for the manufacturer to create the instructions once, than taking a loss when user put it together the wrong way and return it. 
+
+## Collaborative Shopping
+
+**Problem**: When you are shopping at Amazon now, you are most likely shopping alone. You may take a few screenshots and send it to your friends for consultation, but it's nowhere like a shopping spree with friends at a mall. 
+
+**AR/VR Solution**: AR/VR can replicate the communal shopping experience. Imagine a holographic representation of your friend accompanying you as you shop, collaboratively viewing and discussing products. Amazon could display a virtual collection of items for everyone to see, share, and interact with. 
+
+Furthermore, with features like 3D try-ons, you could place a virtual lamp on your physical desk and ask a distant friend for their opinion. While they might be thousands of miles away, they'd appear beside you, seeing the same desk and lamp through VR.
+
+## 3D Review Videos
+
+**Problem**: Amazon reviews are often uninformative. Aside from the fake review problem, most reviews are generic, and the accompanying photos don't always show what you want to see. Many reviewers don't bother leaving a detailed review since that require typing a lot of words. 
+
+**AR/VR Solution**: AR/VR glasses can facilitate easy capture of 3D product videos. Since speaking is simpler and more natural than typing, this lowers the barrier to leaving a review. Plus, the hands-free nature of glasses lets reviewers use both hands to demonstrate the product. When played back, these 3D videos convey nuanced details –-  dimensions, color at different angle, real-world usage, etc –- that otherwise would not be shown in a text review to prospective buyers. 
+
+## Contextual Suggestions
+
+**Problem**: Amazon excels at suggesting products based on previous purchases. However, it doesn't factor in the user's current environment. For instance, if someone relocates to a new apartment, Amazon remains unaware and misses out on recommending potentially essential items.
+
+**AR/VR Solution**: The scene-recognition capabilities of AR glasses provide contextual data such as room dimensions, existing furniture, the size of tables, and more. Leveraging this data, Amazon can understand what is missing and make more precise product suggestions.
+
+Take the scenario of moving into a barren apartment: users can simply walk around, allowing the AR system to analyze the space. Afterwards, Amazon might recommend beds that fit the room's size, kitchenware that are missing, curtains tailored to window dimensions, and so on. When it comes to redecorating, the system can discern the color palette of your home and suggest complementary decor.
+
+This leads to the serious topic of privacy. For the past 10 years, advertisements are based on web activities, such as browsing patterns and social media likes. But in the next 10 years, in the era of spatial computing, advertisements will be based on contextual information and eye-tracking metrics -- it will be much more personal and invasive. But that's a big topic for another post perhaps .. 
